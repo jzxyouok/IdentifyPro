@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/gray2"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <View style="@style/line_bold_ten_style"/>
+
+    <View style="@style/line_fill_white_style"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/payment"
+            android:textColor="@color/black1"
+            android:textSize="@dimen/ts_normal_second"/>
+
+        <TextView
+            android:id="@+id/user_identify_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/red_65"
+            android:textSize="@dimen/ts_normal_second"/>
+
+        <TextView
+            android:id="@+id/user_identify_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/user_identify_price"
+            android:textColor="@color/black1"
+            android:textSize="@dimen/ts_normal"/>
+
+    </RelativeLayout>
+
+    <View style="@style/line_left_ten_style"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_balance_pay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/balance"
+            android:textColor="@color/black2"
+            android:textSize="@dimen/ts_normal"/>
+
+        <com.zcw.togglebutton.ToggleButton android:id="@+id/use_balance_checkbox"
+                                           xmlns:toggle="http://schemas.android.com/apk/res-auto"
+                                           android:layout_width="35dp"
+                                           android:layout_height="20dp"
+                                           android:layout_alignParentEnd="true"
+                                           android:layout_alignParentRight="true"
+                                           android:layout_centerInParent="true"
+                                           android:layout_centerVertical="true"
+                                           android:layout_marginRight="10dp"
+                                           android:paddingBottom="10dp"
+                                           android:paddingTop="10dp"
+                                           toggle:onColor="#18bd1c"/>
+
+        <TextView
+            android:id="@+id/use_account_available"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/use_balance_checkbox"
+            android:textColor="@color/black2"
+            android:textSize="@dimen/ts_normal_third"/>
+
+        <View
+            style="@style/line_fill_gray9_style"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_credit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/user_choice_integral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="可用积分220"
+            android:textColor="@color/black2"
+            android:textSize="@dimen/ts_normal"/>
+
+        <com.zcw.togglebutton.ToggleButton android:id="@+id/use_score_pay_checkbox"
+                                           xmlns:toggle="http://schemas.android.com/apk/res-auto"
+                                           android:layout_width="35dp"
+                                           android:layout_height="20dp"
+                                           android:layout_alignParentEnd="true"
+                                           android:layout_alignParentRight="true"
+                                           android:layout_centerVertical="true"
+                                           android:layout_marginRight="10dp"
+                                           android:paddingBottom="10dp"
+                                           android:paddingTop="10dp"
+                                           toggle:onColor="#18bd1c"/>
+
+        <TextView
+            android:id="@+id/tv_user_choice_integral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/use_score_pay_checkbox"
+            android:text="本次用80积分抵8元"
+            android:textColor="@color/black2"
+            android:textSize="@dimen/ts_normal"/>
+
+        <View
+            style="@style/line_fill_gray9_style"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/cash_coupon"
+            android:textColor="@color/black2"
+            android:textSize="@dimen/ts_normal"/>
+
+        <TextView
+            android:id="@+id/tv_cash_coupon_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="53dp"
+            android:gravity="center"
+            android:text="@string/user_cash_coupon"
+            android:textColor="@color/blue6"
+            android:textSize="@dimen/ts_normal"/>
+
+        <TextView
+            android:id="@+id/tv_cash_coupon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textColor="@color/red_65"
+            android:textSize="@dimen/ts_normal"/>
+    </RelativeLayout>
+
+    <View style="@style/line_fill_white_style"/>
+
+    <View style="@style/line_bold_ten_style"/>
+
+    <View style="@style/line_fill_white_style"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:text="@string/choice_pay_method"
+            android:textColor="@color/black1"
+            android:textSize="@dimen/ts_normal"/>
+
+        <TextView
+            android:id="@+id/user_actual_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/red_65"
+            android:textSize="@dimen/ts_normal"/>
+    </RelativeLayout>
+
+    <View style="@style/line_fill_gray9_style"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_wechat_pay"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/img_icon_pay_wx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="9dp"
+                android:src="@drawable/icon_pay_wx"/>
+
+            <TextView
+                android:id="@+id/tv_icon_pay_wx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/img_icon_pay_wx"
+                android:gravity="center"
+                android:text="@string/pay_method_wx"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/ts_normal_third"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_icon_pay_wx"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/img_icon_pay_wx"
+                android:gravity="center"
+                android:text="@string/pay_method_wx_des"
+                android:textColor="@color/black3"
+                android:textSize="@dimen/ts_normal_small"/>
+
+            <RadioButton
+                android:id="@+id/user_wx_pay_radioBTN"
+                style="@style/UserPayRadioBtnStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <View style="@style/line_ten_gray9_style"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_AliPay"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/img_icon_pay_zfb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="9dp"
+                android:src="@drawable/icon_pay_zfb"/>
+
+            <TextView
+                android:id="@+id/tv_icon_pay_zfb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/img_icon_pay_zfb"
+                android:gravity="center"
+                android:text="@string/pay_method_zfb"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/ts_normal_third"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_icon_pay_zfb"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/img_icon_pay_zfb"
+                android:gravity="center"
+                android:text="@string/pay_method_zfb_des"
+                android:textColor="@color/black3"
+                android:textSize="@dimen/ts_normal_small"/>
+
+            <RadioButton
+                android:id="@+id/user_zfb_pay_radioBTN"
+                style="@style/UserPayRadioBtnStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <View style="@style/line_ten_gray9_style"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_bfb_pay"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/img_icon_pay_bfb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="9dp"
+                android:src="@drawable/icon_pay_bfb"/>
+
+            <TextView
+                android:id="@+id/tv_icon_pay_bfb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/img_icon_pay_bfb"
+                android:gravity="center"
+                android:text="@string/pay_method_bfb"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/ts_normal_third"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_icon_pay_bfb"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/img_icon_pay_bfb"
+                android:gravity="center"
+                android:text="@string/pay_method_bfb_des"
+                android:textColor="@color/black3"
+                android:textSize="@dimen/ts_normal_small"/>
+
+            <RadioButton
+                android:id="@+id/user_bfb_pay_radioBTN"
+                style="@style/UserPayRadioBtnStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View style="@style/line_fill_gray9_style"/>
+
+    <TextView
+        android:id="@+id/user_pay_to"
+        android:layout_width="340dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_button_green"
+        android:gravity="center"
+        android:text="@string/confirm_pay"
+        android:textColor="@color/white"
+        android:textSize="@dimen/ts_normal_second"/>
+</LinearLayout>

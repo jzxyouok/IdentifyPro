@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/pxfile/Downloads/MyProject/Project/DevelopProject/IdentifyPro/PhotoViewLib/src/main/assets"/><source path="/Users/pxfile/Downloads/MyProject/Project/DevelopProject/IdentifyPro/PhotoViewLib/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/pxfile/Downloads/MyProject/Project/DevelopProject/IdentifyPro/PhotoViewLib/src/debug/assets"/></dataSet></merger>

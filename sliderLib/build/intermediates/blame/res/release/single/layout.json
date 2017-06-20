@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/build/intermediates/res/merged/release/layout/indicator_layout.xml",
+        "source": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/src/main/res/layout/indicator_layout.xml"
+    },
+    {
+        "merged": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/build/intermediates/res/merged/release/layout/slider_layout.xml",
+        "source": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/src/main/res/layout/slider_layout.xml"
+    },
+    {
+        "merged": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/build/intermediates/res/merged/release/layout/render_type_default.xml",
+        "source": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/src/main/res/layout/render_type_default.xml"
+    },
+    {
+        "merged": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/build/intermediates/res/merged/release/layout/render_type_text.xml",
+        "source": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/src/main/res/layout/render_type_text.xml"
+    }
+]

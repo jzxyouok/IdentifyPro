@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="320dp"
+              android:layout_height="match_parent"
+              android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:id="@+id/umeng_update_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_content_corner_10"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_version_update">
+
+            <ImageView
+                android:id="@+id/img_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/icon_version_update"/>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_update"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/find_new_version"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_normal_one"/>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/tv_new_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:lineSpacingExtra="9dp"
+                    android:paddingLeft="30dp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/ts_normal_second"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:focusable="true"
+                    android:paddingLeft="30dp"
+                    android:text="@string/update_des"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_forth"/>
+
+                <TextView
+                    android:id="@+id/tv_umeng_update_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:focusable="true"
+                    android:lineSpacingExtra="7dp"
+                    android:paddingLeft="30dp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/ts_normal_second"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="260dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/bg_edit_text_corner"
+                android:gravity="center"
+                android:text="@string/later_to_say"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/ts_normal_big"/>
+
+            <TextView
+                android:id="@+id/tv_ok"
+                android:layout_width="260dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/bg_dialog_title"
+                android:gravity="center"
+                android:text="@string/update_now"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_normal_big"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

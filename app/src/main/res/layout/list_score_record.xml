@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/tv_item_scrore_record_introduce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#323232"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_item_scrore_record_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_scrore_record_introduce"
+        android:textColor="#666666"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_item_scrore_record_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:text="#323232"
+        android:layout_marginTop="5dp"
+        android:layout_centerVertical="true"
+        android:paddingBottom="5dp"
+        android:layout_marginRight="4dp"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/transparent_black_30"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

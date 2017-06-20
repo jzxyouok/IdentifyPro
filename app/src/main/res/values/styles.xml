@@ -1,0 +1,69 @@
+<resources>
+
+    <style name="TranslateTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 其他区域点击是否消失 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 背景模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 背景颜色 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 动画效果 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!-- 透明与否 -->
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="MyVideo">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <style name="PopupActivity" parent="android:Theme.Dialog">
+        <!-- 动画效果 -->
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="PswChoice">
+        <item name="android:button">@drawable/selector_psw_choice</item>
+    </style>
+
+    <style name="UserPayRadioBtnStyle">
+        <item name="android:button">@drawable/selector_user_pay_radio_btn</item>
+    </style>
+
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="Theme.UMDefault" parent="android:style/Theme.NoTitleBar"></style>
+</resources>

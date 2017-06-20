@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="white1">#fbfbfb</color>
+    <color name="white2">#d1d1d1</color>
+
+    <color name="black">#000000</color>
+    <color name="black1">#333333</color>
+    <color name="black2">#666666</color>
+    <color name="black3">#999999</color>
+    <color name="black4">#0d0d0d</color>
+    <color name="black5">#1f1f1f</color>
+    <color name="black6">#646464</color>
+    <!-- dark -->
+    <color name="dark0">#28251f</color>
+    <color name="dark1">#323232</color>
+
+    <!-- gray -->
+    <color name="gray1">#bcbcbc</color>
+    <color name="gray2">#f2f2f2</color>
+    <color name="gray3">#a9a9a9</color>
+    <color name="gray4">#808080</color>
+    <color name="gray6">#f0f0f0</color>
+    <color name="gray7">#f3f3f3</color>
+    <color name="gray8">#eaeaea</color>
+    <color name="gray9">#cccccc</color>
+    <color name="gray10">#303030</color>
+    <color name="gray11">#b7b7b7</color>
+    <color name="gray12">#b7b6b6</color>
+    <color name="no_transparent_gray1">#ffbcbcbc</color>
+    <color name="gray13">#f1f1f1</color>
+    <color name="gray14">#b8b8b8</color>
+    <color name="gray15">#d0d0d0</color>
+    <color name="gray16">#eeeeee</color>
+    <color name="gray17">#7d7d7d</color>
+    <color name="gray18">#efefef</color>
+    <color name="gray19">#deddda</color>
+    <color name="gray20">#b2b1b1</color>
+    <color name="gray21">#c7c7c7</color>
+
+    <!-- blue -->
+    <color name="blue0">#8fa8e5</color>
+    <color name="blue1">#6580c3</color>
+    <color name="blue2">#3463cc</color>
+    <color name="blue3">#426fc2</color>
+    <color name="blue4">#0160fd</color>
+    <color name="blue5">#3a8fe7</color>
+    <color name="blue6">#0c7af7</color>
+    <color name="blue7">#4984f0</color>
+    <color name="blue8">#0071fc</color>
+
+    <!-- yellow -->
+    <color name="yellow0">#eec73f</color>
+    <color name="yellow1">#d6b339</color>
+    <color name="yellow3">#ffdd94</color>
+
+    <!-- orange -->
+    <color name="orange0">#e9bc1a</color>
+    <color name="orange1">#e3ac28</color>
+    <color name="orange2">#e8a825</color>
+    <color name="orange3">#e49413</color>
+    <color name="orange4">#fee900</color>
+    <color name="orange_red">#ee6028</color>
+    <color name="orange_yellow">#dfc07d</color>
+    <color name="orange5_30">#4c8f7d55</color>
+    <color name="orange5_50">#7f8f7d55</color>
+
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black_01">#01000000</color>
+    <color name="transparent_black_15">#26000000</color>
+    <color name="transparent_black_30">#4c000000</color>
+    <color name="transparent_black_40">#66000000</color>
+    <color name="transparent_black_60">#99000000</color>
+    <color name="transparent_white_60">#99ffffff</color>
+    <color name="transparent_purple0_80">#ccff00cc</color>
+    <color name="transparent_purple0_90">#e5ff00cc</color>
+    <color name="transparent_purple1_80">#ccff0099</color>
+    <color name="transparent_purple1_90">#e5ff0099</color>
+
+    <!-- 红色 -->
+    <color name="red">#00ff0000</color>
+    <color name="transparent_red_01">#01ff0000</color>
+    <color name="transparent_red_15">#26ff0000</color>
+    <color name="transparent_red_30">#4cff0000</color>
+    <color name="transparent_red_60">#99ff0000</color>
+    <color name="transparent_red_61">#f83a37</color>
+    <color name="transparent_red_62">#fa1414</color>
+    <color name="transparent_red_63">#ff0000</color>
+    <color name="red_64">#fa0404</color>
+    <color name="red_65">#fc0306</color>
+    <color name="red_66">#b80731</color>
+    <color name="red_67">#dd0606</color>
+    <color name="red_68">#f40712</color>
+
+    <!-- SpringIndicator -->
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#455a64</color>
+    <color name="indicator_1">#55B3C2</color>
+    <color name="indicator_2">#64A4A4</color>
+    <color name="indicator_3">#66D7B9</color>
+    <color name="indicator_4">#FDBC7D</color>
+
+    <!--more options-->
+    <color name="popwindow_more_item_press">#11F7F1F0</color>
+
+    <color name="modify_head_img_color">#a6a6a6</color>
+
+    <color name="green">#3ccc10</color>
+    <color name="green2">#36a438</color>
+    <color name="blue">#54b0fe</color>
+
+    <color name="btn_gray_normal">#b5b5b6</color>
+
+    <color name="refund_txt_color">#ff0101</color>
+    <color name="refund_txt_bg">#f7f7f7</color>
+
+    <color name="popupwindow_bg">#aa666666</color>
+
+    <color name="line_color">#e2e2e2</color>
+    <color name="login_btn_click_color">#9c895f</color>
+
+    <color name="my_wallet_text_color">#ffffff</color>
+    <color name="my_wallet_recharge_color">#fc7c1e</color>
+</resources>

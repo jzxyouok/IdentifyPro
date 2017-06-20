@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/white"
+    tools:context="com.bobao.identifypro.ui.activity.ServiceNoteActivity">
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/layout_title"/>
+
+    <LinearLayout
+        android:id="@+id/ll_service_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_title"
+        android:orientation="vertical">
+
+        <View style="@style/line_bold_ten_style"/>
+
+        <View style="@style/line_fill_white_style"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center|left"
+            android:text="@string/service_note"
+            android:textColor="@color/black1"
+            android:textSize="@dimen/ts_normal_second"/>
+
+        <View style="@style/line_left_ten_style"/>
+
+        <TextView
+            android:id="@+id/tv_service_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center|left"
+            android:textColor="@color/black2"
+            android:textSize="@dimen/ts_normal_third"/>
+
+        <View style="@style/line_fill_white_style"/>
+
+        <View style="@style/line_bold_ten_style"/>
+
+        <View style="@style/line_fill_white_style"/>
+
+        <LinearLayout
+            android:id="@+id/ll_meet_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center|left"
+                    android:text="@string/identify_date"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_second"/>
+
+                <TextView
+                    android:id="@+id/tv_meet_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center|left"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/ts_normal_third"/>
+            </LinearLayout>
+
+            <View style="@style/line_left_ten_style"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:gravity="center|left"
+                android:text="@string/identify_time"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/ts_normal_second"/>
+
+            <TextView
+                android:id="@+id/tv_identify_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center|left"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/ts_normal_third"/>
+        </LinearLayout>
+
+        <View style="@style/line_left_ten_style"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:gravity="center|left"
+                android:text="@string/response_time"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/ts_normal_second"/>
+
+            <TextView
+                android:id="@+id/tv_response_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center|left"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/ts_normal_third"/>
+        </LinearLayout>
+
+        <View style="@style/line_left_ten_style"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:gravity="center|left"
+                android:text="@string/helpline"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/ts_normal_second"/>
+
+            <TextView
+                android:id="@+id/tv_helpline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center|left"
+                android:textColor="@color/blue4"
+                android:textSize="@dimen/ts_normal_third"/>
+        </LinearLayout>
+
+        <View style="@style/line_fill_white_style"/>
+
+        <View style="@style/line_bold_ten_style"/>
+
+        <View style="@style/line_fill_white_style"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center|left"
+                    android:text="@string/service_process"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_second"/>
+            </LinearLayout>
+
+            <View style="@style/line_left_ten_style"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_service_process"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:scrollbars="none"/>
+        </LinearLayout>
+
+        <View style="@style/line_fill_white_style"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_immediate_appointment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_service_note"
+        android:background="@color/gray2">
+
+        <TextView
+            android:id="@+id/tv_immediate_appointment"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/bg_button_orange_yellow"
+            android:gravity="center"
+            android:text="@string/immediate_appointment"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_normal_forth"/>
+    </RelativeLayout>
+</RelativeLayout>

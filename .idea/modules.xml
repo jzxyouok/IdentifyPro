@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IdentifyPro.iml" filepath="$PROJECT_DIR$/IdentifyPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoViewLib/PhotoViewLib.iml" filepath="$PROJECT_DIR$/PhotoViewLib/PhotoViewLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipyRefreshLayoutLib/SwipyRefreshLayoutLib.iml" filepath="$PROJECT_DIR$/SwipyRefreshLayoutLib/SwipyRefreshLayoutLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToggleButtonLib/ToggleButtonLib.iml" filepath="$PROJECT_DIR$/ToggleButtonLib/ToggleButtonLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sliderLib/sliderLib.iml" filepath="$PROJECT_DIR$/sliderLib/sliderLib.iml" />
+    </modules>
+  </component>
+</project>

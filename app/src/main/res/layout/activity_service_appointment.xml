@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/layout_title"/>
+
+
+        <LinearLayout
+            android:id="@+id/ll_service_note"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <View style="@style/line_bold_ten_style"/>
+
+            <View style="@style/line_fill_white_style"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/icon_step_1"
+                android:drawablePadding="9dp"
+                android:gravity="center|left"
+                android:text="@string/reserve_information"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/ts_normal_second"/>
+
+            <View style="@style/line_left_ten_style"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_reservation_experts"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center|left"
+                    android:text="@string/reservation_experts"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <TextView
+                    android:id="@+id/tv_service_type_reservation_experts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:text="杨宝杰"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_third"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tv_reservation_experts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/icon_step_next"
+                    android:gravity="center"
+                    android:text="@string/experts_recommend"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_third"/>
+            </RelativeLayout>
+
+            <View style="@style/line_left_ten_style"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_experts_list"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center|left"
+                    android:paddingLeft="40dp"
+                    android:text="@string/experts_list"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <TextView
+                    android:id="@+id/tv_experts_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/icon_step_next"
+                    android:gravity="center"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_third"/>
+
+                <View style="@style/line_left_ten_style"
+
+                    android:layout_alignBottom="@id/tv_experts_list"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_service_type"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center|left"
+                    android:text="@string/service_type"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <TextView
+                    android:id="@+id/tv_service_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/icon_step_next"
+                    android:gravity="center"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_third"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_appraisal_cost"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center|left"
+                    android:text="@string/appraisal_cost"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <TextView
+                    android:id="@+id/tv_appraisal_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_third"/>
+            </RelativeLayout>
+
+            <View style="@style/line_bold_ten_style"/>
+
+            <View style="@style/line_fill_white_style"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/icon_step_2"
+                android:drawablePadding="9dp"
+                android:gravity="center|left"
+                android:text="@string/collection_info"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/ts_normal_second"/>
+
+            <View style="@style/line_left_ten_style"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center|left"
+                    android:text="@string/collection_type"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <TextView
+                    android:id="@+id/tv_collection_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_third"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_collection_num"
+                android:layout_width="match_parent"
+                android:layout_height="42dp">
+
+                <View
+                    android:id="@+id/line_collection_num"
+                    style="@style/line_left_ten_style"
+                    android:layout_alignParentTop="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center|left"
+                    android:text="@string/collection_num"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/ts_normal"/>
+
+                <TextView
+                    android:id="@+id/tv_collection_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/icon_step_next"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_third"/>
+            </RelativeLayout>
+
+            <View style="@style/line_bold_ten_style"/>
+
+            <View style="@style/line_fill_white_style"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/icon_step_3"
+                android:drawablePadding="9dp"
+                android:gravity="center|left"
+                android:text="@string/specification_identification"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/ts_normal_second"/>
+
+            <View style="@style/line_left_ten_style"/>
+
+            <EditText
+                android:id="@+id/edt_specification_identification"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edit_corner"
+                android:gravity="top|left"
+                android:hint="1.请说明想预约的时间。\n2.请说明藏品尺寸等信息。\n3.请填写您想了解的信息。例：此瓷瓶的窑口几断代？\n"
+                android:padding="11dp"
+                android:textColor="@color/black2"
+                android:textColorHint="@color/black3"
+                android:textSize="@dimen/ts_normal_third"/>
+
+            <LinearLayout
+                android:id="@+id/ll_money_detail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="65dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center|left"
+                        android:text="@string/money_to_pay"
+                        android:textColor="@color/transparent_red_63"
+                        android:textSize="@dimen/ts_normal_big"/>
+
+                    <TextView
+                        android:id="@+id/tv_money_to_pay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:text="30000"
+                        android:textColor="@color/transparent_red_63"
+                        android:textSize="@dimen/ts_normal_big"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_modify"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray9"
+                    android:gravity="center"
+                    android:text="@string/modification"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_normal_big"/>
+
+                <TextView
+                    android:id="@+id/tv_to_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/orange_yellow"
+                    android:gravity="center"
+                    android:text="@string/payment"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_normal_big"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_submit_reservation"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white">
+
+                <View
+                    android:id="@+id/line_one"
+                    style="@style/line_fill_style"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="1dp"/>
+
+                <TextView
+                    android:id="@+id/tv_submit_reservation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_button_orange_yellow"
+                    android:gravity="center"
+                    android:text="@string/submit_reservation"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/ts_normal_big"/>
+            </RelativeLayout>
+        </LinearLayout>
+</LinearLayout>

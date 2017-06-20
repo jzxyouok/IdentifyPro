@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="290dp"
+                android:layout_height="150dp"
+                android:background="@drawable/bg_content_corner_gray">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="@color/black1"
+        android:textSize="@dimen/ts_normal_one"/>
+
+    <EditText
+        android:id="@+id/et_dialog_info"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/tv_title"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_content_corner_2"
+        android:gravity="center"
+        android:textColor="@color/black2"
+        android:textColorHint="@color/black3"
+        android:textSize="@dimen/ts_normal_third"/>
+
+    <View
+        android:id="@+id/line"
+        style="@style/line_fill_gray9_style"
+        android:layout_below="@+id/et_dialog_info"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:showDividers="middle">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/negative"
+            android:textColor="@color/black3"
+            android:textSize="@dimen/ts_normal_one"/>
+
+        <View style="@style/line_vertical_gray9_style"/>
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/positive"
+            android:textColor="@color/blue7"
+            android:textSize="@dimen/ts_normal_one"/>
+    </LinearLayout>
+</RelativeLayout>

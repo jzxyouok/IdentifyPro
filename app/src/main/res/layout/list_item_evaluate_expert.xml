@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/evaluate_rv_tv"
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_button_appointment"
+        android:textSize="@dimen/ts_normal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

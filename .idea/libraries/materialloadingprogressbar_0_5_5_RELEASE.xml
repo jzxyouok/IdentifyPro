@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="materialloadingprogressbar-0.5.5-RELEASE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.lsjwzh/materialloadingprogressbar/0.5.5-RELEASE/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.lsjwzh/materialloadingprogressbar/0.5.5-RELEASE/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lsjwzh/materialloadingprogressbar/0.5.5-RELEASE/2e1de42e1553e4c93bedc84d5885e1fca82d8806/materialloadingprogressbar-0.5.5-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/gray2"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_pay_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bg_pay_success"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_pay_success_note"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/pay_success_note"
+            android:textColor="@color/red_68"
+            android:textSize="@dimen/ts_normal_nineteen"/>
+
+        <TextView
+            android:id="@+id/tv_pay_success_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="15dp"
+            android:text="@string/pay_success_note2"
+            android:textColor="@color/black2"
+            android:textSize="@dimen/ts_normal"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_earn_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="35dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/pay_success_note3"
+            android:textColor="@color/black2"
+            android:textSize="@dimen/ts_normal_one"/>
+
+        <TextView
+            android:id="@+id/tv_continue_identify"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_button_corner_4_orange_yellow"
+            android:gravity="center"
+            android:text="@string/continue_identify"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_normal_one"/>
+
+        <TextView
+            android:id="@+id/tv_invite_friend"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_blue_corner"
+            android:gravity="center"
+            android:text="@string/invite_friend_for_points"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ts_normal_one"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

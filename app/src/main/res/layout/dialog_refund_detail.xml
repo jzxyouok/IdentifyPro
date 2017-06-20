@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_content_corner_transparent">
+
+    <ImageView
+        android:id="@+id/img_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/close_dialog_icon"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_refund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_delete"
+        android:background="@drawable/bg_refund"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/refund_detail_one"
+                android:textColor="@color/orange4"
+                android:textSize="@dimen/ts_normal_nineteen"/>
+
+            <TextView
+                android:id="@+id/tv_title_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/refund_detail_two"
+                android:textColor="@color/yellow3"
+                android:textSize="@dimen/ts_normal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_title"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/bg_button_corner_4_orange_yellow"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_content_one"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/refund_money"
+                        android:textColor="@color/black1"
+                        android:textSize="@dimen/ts_normal_one"/>
+
+                    <TextView
+                        android:id="@+id/tv_content_name_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="100000"
+                        android:textColor="@color/red_66"
+                        android:textSize="@dimen/ts_normal_forth"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/unit_of_money_two"
+                        android:textColor="@color/black1"
+                        android:textSize="@dimen/ts_normal_one"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_content_time_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:text="2016-03-24 14:23:12"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_second"/>
+            </RelativeLayout>
+
+            <View style="@style/line_fill_gray9_style"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_content_two"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/refund_money"
+                        android:textColor="@color/black1"
+                        android:textSize="@dimen/ts_normal_one"/>
+
+                    <TextView
+                        android:id="@+id/tv_content_name_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="100000"
+                        android:textColor="@color/red_66"
+                        android:textSize="@dimen/ts_normal_forth"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/unit_of_money_two"
+                        android:textColor="@color/black1"
+                        android:textSize="@dimen/ts_normal_one"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_content_time_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:text="2016-03-24 14:23:12"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_second"/>
+            </RelativeLayout>
+
+            <View style="@style/line_fill_gray9_style"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_content_three"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/refund_money"
+                        android:textColor="@color/black1"
+                        android:textSize="@dimen/ts_normal_one"/>
+
+                    <TextView
+                        android:id="@+id/tv_content_name_three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="100000"
+                        android:textColor="@color/red_66"
+                        android:textSize="@dimen/ts_normal_forth"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/unit_of_money_two"
+                        android:textColor="@color/black1"
+                        android:textSize="@dimen/ts_normal_one"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_content_time_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:text="2016-03-24 14:23:12"
+                    android:textColor="@color/black1"
+                    android:textSize="@dimen/ts_normal_second"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

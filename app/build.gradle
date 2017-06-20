@@ -1,0 +1,160 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.bobao.identifypro"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    signingConfigs {
+        debug {
+        }
+        release {
+            storeFile file("../identifypro.keystore")
+            storePassword "6yhn7ujm"
+            keyAlias "artxun"
+            keyPassword "6yhn7ujm"
+        }
+    }
+    buildTypes {
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            // 是否进行混淆
+            minifyEnabled false
+            // Zipalign优化
+            zipAlignEnabled false
+            // 移除无用的resource文件
+            shrinkResources false
+            // 签名设置
+            signingConfig signingConfigs.debug
+        }
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            // 是否进行混淆
+            minifyEnabled false
+            // Zipalign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources false
+            // 签名设置
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    // 整理打完的包
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            output.outputFile = new File(
+                    output.outputFile.parent, "IdentifyPro_V${defaultConfig.versionName}_${variant.productFlavors.name}.apk")
+        }
+    }
+    // java 版本
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    // 执行lint检查，有任何的错误或者警告提示，都会终止构建，我们可以将其关掉。
+    lintOptions {
+        abortOnError false
+    }
+    // 统一修改多渠道
+    productFlavors.all { flavor ->
+        flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+    // 友盟多渠道打包
+    productFlavors {
+        tencent {}
+        mi {}
+        baidu {}
+        qihoo {}
+        meizu {}
+        _91 {}
+        hiapk {}
+        oppo {}
+        anzhi {}
+        huawei {}
+        lenovo {}
+        peapods {}
+        other {}
+        appinside {}
+        googleplay {}
+        innertest {}
+        H5 {}
+        share {}
+        jinli {}
+        pp {}
+        Nduo {}
+        gdt {}
+        gdtwx {}
+        gdtxw {}
+        gdtxxl {}
+        gdtqqzone {}
+        gdtqqmarket {}
+        baidujj {}
+        wanshengwy {}
+        sinawap_tuwen {}
+        sinawap_datu {}
+        sinawap_zutu {}
+        sinawap_gaoqing {}
+        sinawap_fangtu {}
+        sinanews {}
+        wangyijr {}
+        wangyi {}
+        mojitianqi {}
+    }
+
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+}
+repositories {
+    jcenter()
+    flatDir {
+        dirs 'libs'
+    }
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    // 支持包
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    // RecyclerView
+    compile 'com.android.support:recyclerview-v7:23.2.0'
+    // 支持包
+    compile 'com.android.support:support-v4:23.1.0'
+    // facebook的图片加载
+    compile 'com.facebook.fresco:fresco:0.6.1+'
+    // json转换
+    compile 'com.google.code.gson:gson:2.4'
+    // viewpager的indicator
+    compile 'com.github.chenupt.android:springindicator:1.0.2@aar'
+    // MaterialLoadingProgressBar
+    compile 'com.lsjwzh:materialloadingprogressbar:0.5.5-RELEASE'
+    // 友盟统计
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    //右滑返回上一个页面
+    compile 'me.imid.swipebacklayout.lib:library:1.0.0'
+    // 缩放View
+    compile project(':PhotoViewLib')
+    // 仿苹果的switch
+    compile project(':ToggleButtonLib')
+    // 下拉刷新、上拉加载更多
+    compile project(':SwipyRefreshLayoutLib')
+    compile files('libs/baidumapapi_map_v3_7_0.jar')
+    compile files('libs/locSDK_6.22.jar')
+    compile files('libs/baidumapapi_base_v3_7_0.jar')
+    //picasso图片加载
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile project(':sliderLib')
+}

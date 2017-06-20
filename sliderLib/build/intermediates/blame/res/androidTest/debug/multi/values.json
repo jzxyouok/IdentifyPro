@@ -1,0 +1,176 @@
+[
+    {
+        "outputFile": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3024,
+                    "endColumn": 43,
+                    "endOffset": 3063
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 3024,
+                        "endColumn": 43,
+                        "endOffset": 3063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3068,
+                    "endLine": 50,
+                    "endColumn": 12,
+                    "endOffset": 3938
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 3068,
+                        "endLine": 50,
+                        "endColumn": 12,
+                        "endOffset": 3938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3943,
+                    "endLine": 70,
+                    "endColumn": 12,
+                    "endOffset": 4883
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 3943,
+                        "endLine": 70,
+                        "endColumn": 12,
+                        "endOffset": 4883
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 4888,
+                    "endLine": 89,
+                    "endColumn": 12,
+                    "endOffset": 5758
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 4888,
+                        "endLine": 89,
+                        "endColumn": 12,
+                        "endOffset": 5758
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/IdentifyPro/sliderLib/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3024,
+                    "endColumn": 43,
+                    "endOffset": 3063
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/IdentifyPro/sliderLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 3024,
+                        "endColumn": 43,
+                        "endOffset": 3063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3068,
+                    "endLine": 50,
+                    "endColumn": 12,
+                    "endOffset": 3938
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/IdentifyPro/sliderLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 3068,
+                        "endLine": 50,
+                        "endColumn": 12,
+                        "endOffset": 3938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3943,
+                    "endLine": 70,
+                    "endColumn": 12,
+                    "endOffset": 4883
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/IdentifyPro/sliderLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 3943,
+                        "endLine": 70,
+                        "endColumn": 12,
+                        "endOffset": 4883
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 4888,
+                    "endLine": 89,
+                    "endColumn": 12,
+                    "endOffset": 5758
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/DevelopProject/IdentifyPro/sliderLib/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 4888,
+                        "endLine": 89,
+                        "endColumn": 12,
+                        "endOffset": 5758
+                    }
+                }
+            }
+        ]
+    }
+]

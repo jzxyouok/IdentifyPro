@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_button_corner_login_select" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/bg_button_corner_login_select" android:state_selected="true"></item>
+    <item android:drawable="@drawable/bg_button_corner_4_orange_yellow"></item>
+</selector>

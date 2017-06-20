@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.bobao.identifypro.ui.widget.sticker.StickHeaderViewPager
+        android:id="@+id/sticker_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp">
+
+        <include
+            layout="@layout/home_banner_layout"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"/>
+
+        <com.bobao.identifypro.ui.widget.sticker.SimpleIndicator
+            android:id="@+id/sticker_vpi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/vpi_height"/>
+    </com.bobao.identifypro.ui.widget.sticker.StickHeaderViewPager>
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"/>
+</RelativeLayout>

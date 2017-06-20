@@ -1,0 +1,89 @@
+[
+    {
+        "outputFile": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3024,
+                    "endColumn": 43,
+                    "endOffset": 3063
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 43,
+                        "endOffset": 55
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3068,
+                    "endLine": 50,
+                    "endColumn": 12,
+                    "endOffset": 3938
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1001,
+                        "endLine": 41,
+                        "endColumn": 12,
+                        "endOffset": 1871
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3943,
+                    "endLine": 70,
+                    "endColumn": 12,
+                    "endOffset": 4883
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 995
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 4888,
+                    "endLine": 89,
+                    "endColumn": 12,
+                    "endOffset": 5758
+                },
+                "from": {
+                    "file": "/Users/pxfile/Downloads/MyProject/Project/WorkProject/IdentifyPro/sliderLib/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1877,
+                        "endLine": 61,
+                        "endColumn": 12,
+                        "endOffset": 2747
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_drawable</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:stepSize">1.0</item>
+        <item name="android:numStars">5</item>
+    </style>
+</resources>

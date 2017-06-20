@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="view_3d_china">
+        <item>请拍摄一张瓷器整体图片</item>
+        <item>请拍摄一张瓷器口沿图片</item>
+        <item>请拍摄一张瓷器底部图片</item>
+        <item>请拍摄一张瓷器表面细节图</item>
+    </string-array>
+    <string-array name="view_3d_jade">
+        <item>请拍摄一张玉器整体图片</item>
+        <item>请拍摄一张玉器尺寸对比图片</item>
+        <item>请拍摄一张玉器其他角度图片</item>
+        <item>请拍摄一张局部细节图片</item>
+    </string-array>
+    <string-array name="view_3d_sundry">
+        <item>请拍摄一张整体图片</item>
+        <item>请拍摄一张其他角度图片</item>
+        <item>请拍摄一张局部细节图片</item>
+        <item>请再拍摄一张局部细节图片</item>
+    </string-array>
+    <string-array name="view_3d_painting">
+        <item>请拍摄一张书画正面整体图片</item>
+        <item>请拍摄一张书画落款、印章图片</item>
+        <item>请拍摄一张书画局部细节图片</item>
+        <item>请再拍摄一张书画局部细节图片</item>
+    </string-array>
+    <string-array name="view_3d_bronze">
+        <item>请拍摄一张铜器正面整体图片</item>
+        <item>请拍摄一张铜器侧面图片</item>
+        <item>请拍摄一张铜器底部图片</item>
+        <item>请再拍摄一张铜器局部细节图片</item>
+    </string-array>
+    <string-array name="view_3d_wooden">
+        <item>请拍摄一张木器整体图片</item>
+        <item>请拍摄一张木器重要位置图片</item>
+        <item>请拍摄一张木器局部细节图片</item>
+        <item>请再拍摄一张木器局部细节图片</item>
+    </string-array>
+    <string-array name="view_3d_money_paper">
+        <item>请拍摄一张纸币正面图片</item>
+        <item>请拍摄一张纸币背面图片</item>
+        <item>请拍摄一张纸币透光图片</item>
+        <item>请再拍摄一张纸币局部细节图片</item>
+    </string-array>
+    <string-array name="view_3d_money_silver">
+        <item>请拍摄一张银元正面图片</item>
+        <item>请拍摄一张银元背面图片</item>
+        <item>请拍摄一张银元齿边细节图片</item>
+        <item>请再拍摄一张银元局部细节图片</item>
+    </string-array>
+    <string-array name="view_3d_money_bronze">
+        <item>请拍摄一张铜币正面图片</item>
+        <item>请拍摄一张铜币背面图片</item>
+        <item>请拍摄一张铜币侧边图片</item>
+        <item>请再拍摄一张铜币局部细节图片</item>
+    </string-array>
+
+    <string-array name="view_3d_china_sub">
+        <item>瓷器整体</item>
+        <item>瓷器口沿</item>
+        <item>瓷器底部</item>
+        <item>表面细节</item>
+    </string-array>
+    <string-array name="view_3d_jade_sub">
+        <item>玉器整体</item>
+        <item>玉器尺寸对比</item>
+        <item>其他角度</item>
+        <item>局部细节</item>
+    </string-array>
+    <string-array name="view_3d_sundry_sub">
+        <item>整体</item>
+        <item>其他角度</item>
+        <item>局部细节</item>
+        <item>局部细节</item>
+    </string-array>
+    <string-array name="view_3d_painting_sub">
+        <item>书画正面整体</item>
+        <item>书画落款、印章</item>
+        <item>书画局部细节</item>
+        <item>书画局部细节</item>
+    </string-array>
+    <string-array name="view_3d_money">
+        <item>钱币正面</item>
+        <item>钱币背面</item>
+        <item>钱币侧边</item>
+        <item>钱币局部细节</item>
+    </string-array>
+    <string-array name="view_3d_bronze_sub">
+        <item>铜器正面整体</item>
+        <item>铜器底部</item>
+        <item>铜器侧面</item>
+        <item>铜器局部细节</item>
+    </string-array>
+    <string-array name="view_3d_wooden_sub">
+        <item>木器整体</item>
+        <item>木器重要位置</item>
+        <item>木器局部细节</item>
+        <item>木器局部细节</item>
+    </string-array>
+    <string-array name="view_3d_money_paper_sub">
+        <item>纸币正面</item>
+        <item>纸币背面</item>
+        <item>纸币透光</item>
+        <item>纸币局部细节</item>
+    </string-array>
+    <string-array name="view_3d_money_silver_sub">
+        <item>银元正面</item>
+        <item>银元背面</item>
+        <item>银元齿边细节</item>
+        <item>银元局部细节</item>
+    </string-array>
+    <string-array name="view_3d_money_bronze_sub">
+        <item>铜币正面</item>
+        <item>铜币背面</item>
+        <item>铜币侧边</item>
+        <item>铜币局部细节</item>
+    </string-array>
+
+    <string-array name="available_expert">
+        <item>2</item>
+        <item>3</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>14</item>
+        <item>20</item>
+        <item>21</item>
+        <item>26</item>
+        <item>32</item>
+        <item>35</item>
+        <item>36</item>
+        <item>39</item>
+        <item>41</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>48</item>
+    </string-array>
+
+    <array name="indicator_colors">
+        <item>@color/indicator_1</item>
+        <item>@color/indicator_2</item>
+        <item>@color/indicator_3</item>
+        <item>@color/indicator_4</item>
+    </array>
+
+    <string-array name="choice_evaluate">
+        <item>很专业</item>
+        <item>很迅速</item>
+        <item>膜拜</item>
+        <item>很准确</item>
+        <item>不专业</item>
+        <item>不准确</item>
+        <item>一般</item>
+        <item>太慢了</item>
+    </string-array>
+
+    <string-array name="service_process">
+        <item>1.发起约见</item>
+        <item>2.藏友付款</item>
+        <item>3.专家确认</item>
+        <item>4.双方见面</item>
+    </string-array>
+
+    <string-array name="reservation_experts">
+        <item>推荐专家</item>
+        <item>自选专家</item>
+    </string-array>
+
+    <string-array name="collection_num">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

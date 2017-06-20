@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--<com.handmark.pulltorefresh.library.PullToRefreshListView-->
+            <ListView
+                android:id="@+id/lv_collections"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/transparent"
+                android:dividerHeight="5dp"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none"/>
+        </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+        <RelativeLayout
+            android:id="@+id/vg_no_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/identification_order"/>
+
+                <TextView
+                    android:id="@+id/tv_no_data_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="您没有相关的订单"
+                    android:textColor="@color/gray10"
+                    android:textSize="15sp"/>
+
+                <Button
+                    android:id="@+id/btn_no_data_action"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bg_blue_corner"
+                    android:text="我要鉴定"
+                    android:textColor="@color/white"
+
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        <!--<include
+
+            layout="@layout/layout_no_net_data" />-->
+
+
+        <include
+            android:id="@+id/vg_loading"
+            layout="@layout/layout_loading"/>
+    </FrameLayout>
+</LinearLayout>

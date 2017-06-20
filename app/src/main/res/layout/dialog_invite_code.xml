@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="325dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_content_corner_transparent">
+
+    <ImageView
+        android:id="@+id/img_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/close_dialog_icon"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_delete"
+        android:background="@drawable/bg_content_corner_10"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_invite_code"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="@string/invite_code_score"
+            android:textColor="@color/red_67"
+            android:textSize="@dimen/ts_normal_big"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_close"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/bg_edit_text_corner"
+                android:gravity="center"
+                android:text="@string/close"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/ts_normal_forth"/>
+
+            <TextView
+                android:id="@+id/tv_earn_points"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/bg_dialog_title"
+                android:gravity="center"
+                android:text="@string/earn_points"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_normal_forth"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

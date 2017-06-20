@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/gray2"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/layout_title"/>
+
+    <View
+        style="@style/line_fill_gray9_style"
+        android:layout_marginTop="10dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_edit_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/et_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black1"
+            android:textSize="@dimen/ts_normal_second"/>
+
+        <ImageView
+            android:id="@+id/img_delete_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:src="@drawable/icon_delete"/>
+    </RelativeLayout>
+
+    <View style="@style/line_fill_gray9_style"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="38dp"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/btn_edit_nickname_commit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_content_corner_gray9"
+                android:gravity="center"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ts_normal_big"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
